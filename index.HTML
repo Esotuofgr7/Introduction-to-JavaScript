@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="Myh"></h1>
+    <p id="Myp"></p>
+    <p id="myvariable"></p>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+
+    <script>
+        document.getElementById("Myh").innerHTML="This....is my Javascript Heading"
+        document.getElementById("Myp").innerHTML="This....is my Javascript Paragraph"
+        var num1 = 660
+        var num2 = 60
+        var sum = num1 + num2
+        document.getElementById("myvariable").innerHTML="The total sum of 660 and 60 is....." + sum
+        var x = 125
+        var y = 25
+        var sum = x + y
+        var difference = x - y
+        var multiplication = x * y
+        var division = x / y
+        document.getElementById("demo").innerHTML=sum
+        document.getElementById("demo1").innerHTML=difference
+        document.getElementById("demo2").innerHTML=multiplication
+        document.getElementById("demo3").innerHTML=division
+        x += 75
+        document.getElementById("demo4").innerHTML= x
+    </script>
+</body>
+</html>
